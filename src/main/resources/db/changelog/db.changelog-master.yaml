@@ -23,3 +23,7 @@ databaseChangeLog:
       file: db/changelog/changeset/11-CreateUnknownEventTable.sql
   - include:
       file: db/changelog/changeset/12-AlterUnknownNewTable.sql
+  - include:
+      file: db/changelog/changeset/13-VenueMigrations.sql
+  - include:
+      file: db/changelog/changeset/14-EventMigrations.sql
