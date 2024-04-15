@@ -1,0 +1,25 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changeset/1-CreateEventTable.sql
+  - include:
+      file: db/changelog/changeset/2-AddConstraints.sql
+  - include:
+      file: db/changelog/changeset/3-CreateVenueTable.sql
+  - include:
+      file: db/changelog/changeset/4-CreateVenueDirectoryTableAndChangeVenueTable.sql
+  - include:
+      file: db/changelog/changeset/5-CreateSavedFilterTable.sql
+  - include:
+      file: db/changelog/changeset/6-AddForeignKeyIntoSavedFilterTable.sql
+  - include:
+      file: db/changelog/changeset/7-CreateEventNameTables.sql
+  - include:
+      file: db/changelog/changeset/8-AlterSavedFilterTable.sql
+  - include:
+      file: db/changelog/changeset/9-AlterSavedFilter.sql
+  - include:
+      file: db/changelog/changeset/10-AlterSavedFilter.sql
+  - include:
+      file: db/changelog/changeset/11-CreateUnknownEventTable.sql
+  - include:
+      file: db/changelog/changeset/12-AlterUnknownNewTable.sql
